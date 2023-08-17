@@ -1,0 +1,42 @@
+{
+    "system": {
+        "name": "Mi Asistente",
+        "url": "https://lobensoft.com",
+        "color": {
+            "lightTheme": {
+                "palette": {
+                    "primary": "#1877F2",
+                    "secondary": "#63a9ff"
+                },
+                "toolbar": {
+                    "background": "#1877F2"
+                },
+                "menuItens": "#ffffff",
+                "sub": "#ffffff",
+                "toolbarIcon": "#ffffff",
+                "divide": "#E0E0E0"
+            },
+            "darkTheme": {
+                "palette": {
+                    "primary": "#37474F",
+                    "secondary": "#373b4f",
+                    "background": {
+                        "default": "#080D14",
+                        "paper": "#181D22"
+                    },
+                    "text": {
+                        "primary": "#FFFFFF",
+                        "secondary": "#B0BEC5"
+                    }
+                },
+                "toolbar": {
+                    "background": "#37474F"
+                },
+                "menuItens": "#181D22",
+                "sub": "#181D22",
+                "toolbarIcon": "#181D22",
+                "divide": "#080D14"
+            }
+        }
+    }
+}
