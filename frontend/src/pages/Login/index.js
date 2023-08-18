@@ -27,7 +27,7 @@ const Copyright = () => {
     <Typography variant="body2" color="textSecondary" align="center">
       © {new Date().getFullYear()}
       {" - "}
-      <Link color="inherit" href={system.url || "https://github.com/rtenorioh/Press-Ticket"}>
+      <Link color="inherit" href={system.url || "https://lobensoft.com"}>
         {system.name}
       </Link>
       {"."}
@@ -123,7 +123,19 @@ const Login = () => {
             className={classes.submit}
           >
             {i18n.t("login.buttons.submit")}
-          </Button>          
+          </Button>
+          <Grid container>
+            <Grid item>
+              <Link
+                href="#"
+                variant="body2"
+                component={RouterLink}
+                to="/signup"
+              >
+                {i18n.t("login.buttons.register")}
+              </Link>
+            </Grid>
+          </Grid>
         </form>
       </div>
       <Box mt={8}><Copyright /></Box>
