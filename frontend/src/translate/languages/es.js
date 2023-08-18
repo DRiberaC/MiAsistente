@@ -392,7 +392,7 @@ const messages = {
           quickAnswers: "Respuestas rápidas",
           tags:"Tags",
           etiquetas: "Etiquetas",
-          queues: "Area",
+          queues: "Filas",
           integrations: "Integraciones",
           administration: "Administración",
           users: "Asistentes",
