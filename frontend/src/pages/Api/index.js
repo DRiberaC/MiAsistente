@@ -47,7 +47,7 @@ const Api = () => {
     return (
         <div className={classes.root}>
             <Container>
-                <h2>Documentação para envio de mensagens</h2>
+                <h2>Documentación para envio de mensagens</h2>
 
                 <h2 className={classes.color}>Métodos de Envio</h2>
 
