@@ -445,7 +445,7 @@ const TicketListItem = ({ ticket, userId }) => {
 											marginBottom: "3px",
 
 										}}
-										badgeContent={ticket.queue?.name || "No sector"}
+										badgeContent={ticket.queue?.name || "No Fila"}
 									/>
 								</Tooltip>
 							)}

@@ -43,7 +43,7 @@ const messages = {
           date: "Data",
           hour: "Hora",
           ticket_id: "Ticked ID",
-          queue: "Sector",
+          queue: "Fila",
           connection: "Conexión"
         }
       },
@@ -120,7 +120,7 @@ const messages = {
         form: {
           name: "Nombre",
           default: "Predeterminado",
-          display: "Mostrar hora del sector",
+          display: "Mostrar hora dela Fila",
           farewellMessage: "Mensaje de despedida"
         },
         buttons: {
@@ -240,11 +240,11 @@ const messages = {
       },
       queueModal: {
         title: {
-          add: "Agregar Sector",
-          edit: "Editar Sector",
+          add: "Agregar Fila",
+          edit: "Editar Fila",
         },
         notification: {
-          title: "¡Sector guardado con éxito!",
+          title: "Fila guardado con éxito!",
         },
         form: {
           name: "Nombre",
@@ -302,7 +302,7 @@ const messages = {
         },
       },
       ticketsQueueSelect: {
-        placeholder: "Sectores",
+        placeholder: "Filas",
       },
       tickets: {
         toasts: {
@@ -327,7 +327,7 @@ const messages = {
         title: "Boleto de transferencia",
         fieldLabel: "Escriba para obtener asistentes",
         fieldConnectionLabel: "Transferir a conexión",
-        fieldQueueLabel: "Transferir a Sector",
+        fieldQueueLabel: "Transferir a Fila",
         fieldConnectionPlaceholder: "Seleccione una conexión",
         noOptions: "No se encontró ningún asistente con ese nombre",
         buttons: {
@@ -342,7 +342,7 @@ const messages = {
         noTicketsMessage: "No se encontraron boletos con este estado o término de búsqueda",
         connectionTitle: "Conexión actualmente en uso.",
         items: {
-          queueless: "Sin sector",
+          queueless: "Sin Fila",
           accept: "Aceptar",
           spy: "Espía",
           close: "Cerca",
@@ -350,7 +350,7 @@ const messages = {
           return: "Mover a espera",
           connection: "Conexión",
           user: "Asistente",
-          queue: "Sector",
+          queue: "Fila",
           tags: "Etiquetas"
         },
         buttons: {
@@ -361,7 +361,7 @@ const messages = {
         },
         acceptModal: {
           title: "Aceptar chat",
-          queue: "Seleccionar sector"
+          queue: "Seleccionar Fila"
         },
       },
       newTicketModal: {
@@ -375,7 +375,7 @@ const messages = {
       },
       newTicketModalContactPage: {
         title: "Crear Ticket",
-        queue: "Seleccione un Sector",
+        queue: "Seleccione un Fila",
         fieldLabel: "Escriba para buscar el contacto",
         add: "Agregar",
         buttons: {
@@ -420,9 +420,9 @@ const messages = {
         noTickets: "Sin notificaciones.",
       },
       queues: {
-        title: "Sectores",
+        title: "Filas",
         notifications: {
-          queueDeleted: "El sector ha sido eliminado.",
+          queueDeleted: "El Fila ha sido eliminado.",
         },
         table: {
           id: "ID",
@@ -434,15 +434,15 @@ const messages = {
           endWork: "Cierre",
         },
         buttons: {
-          add: "Agregar sector",
+          add: "Agregar Fila",
         },
         confirmationModal: {
           deleteTitle: "Eliminar",
-          deleteMessage: "¿Estás seguro? ¡Esta acción no se puede revertir! Los tickets de este sector seguirán existiendo, pero ya no tendrán ningún sector asignado.",
+          deleteMessage: "¿Estás seguro? ¡Esta acción no se puede revertir! Los tickets de este fila seguirán existiendo, pero ya no tendrán ningún fila asignado.",
         },
       },
       queueSelect: {
-        inputLabel: "Sectores",
+        inputLabel: "Filas",
       },
       quickAnswers: {
         title: "Respuestas rápidas",
@@ -528,7 +528,7 @@ const messages = {
           },
           allTicket: {
             name: "Todo el mundo puede ver el ticket sin departamento",
-            note: "Active esta función para que todos los usuarios vean los boletos sin sector",
+            note: "Active esta función para que todos los usuarios vean los boletos sin fila",
             options: {
               enabled: "Habilitado",
               disabled: "Deshabilitado",
@@ -689,7 +689,7 @@ const messages = {
         ERR_CREATING_TICKET: "Error al crear el ticket en la base de datos.",
         ERR_FETCH_WAPP_MSG: "Error al obtener el mensaje en WhatsApp, puede ser demasiado antiguo.",
         ERR_QUEUE_COLOR_ALREADY_EXISTS: "Este color ya está en uso, elige otro.",
-        ERR_WAPP_GREETING_REQUIRED: "El mensaje de saludo es obligatorio cuando hay más de un Sector.",
+        ERR_WAPP_GREETING_REQUIRED: "El mensaje de saludo es obligatorio cuando hay más de un Fila.",
         ERR_USER_CREATION_COUNT: "Límite de asistentes alcanzado, comuníquese con soporte para cambiar",
         ERR_CONNECTION_CREATION_COUNT: "Límite de conexión alcanzado, comuníquese con soporte para cambiar.",
         ERR_NO_TAG_FOUND: "Etiqueta no encontrada.",
