@@ -622,6 +622,14 @@ const messages = {
           },
         },
       },
+      messageOptionsMenu:{
+        delete:"Eliminar",
+        reply:"Responder",
+        confirmationModal:{
+          title:"Eliminar mensaje",
+          message:"El mensaje sera eliminado"
+        }
+      },
       messagesInput: {
         placeholderOpen: "Ingrese un mensaje",
         placeholderClosed: "Reabrir o aceptar este ticket para enviar un mensaje.",
